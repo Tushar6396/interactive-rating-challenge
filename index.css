@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    font-family: "Overpass",sans-serif ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.main-container{
+    background-color: hsl(213, 19%, 18%);
+    max-width: 350px;
+    margin-top: 10rem;
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.main-container img{
+    width: 30px;
+    background-color: hsl(213, 18%, 26%);
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.main-container h1{
+    color: white;
+    margin: 1rem 0 1rem;
+}
+
+.main-container p{
+    color: hsl(217, 12%, 63%);
+    margin: 1rem 0 1rem;
+    font-size: 15px;
+}
+
+.main-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container li button{
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 1.5rem;
+    background-color: hsl(213, 18%, 26%);
+    border-radius: 50%;
+    padding: 8px;
+    border: none;
+    color: hsl(217, 12%, 63%);
+}
+
+.main-container button{
+    width: 100%;
+    padding: 6px;
+    margin: 0.5rem auto 2rem;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 20px;
+    border: none;
+}
+
+.main-container li button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.main-container button:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.main-container li button:focus{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+.thank-container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    max-width: 350px;
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: none;
+    margin-top: 10rem;
+}
+
+.thank-container img{
+   margin: 1rem auto 1rem;
+}
+
+.thank-container h5{
+    margin: 0 auto 1rem;
+    background-color: hsl(213, 18%, 26%);
+    color: hsl(25, 97%, 53%);
+    padding: 4px 0 4px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.thank-container h2{
+    color: white;
+    margin: 1.5rem auto 1rem;
+}
+
+.thank-container p{
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+    margin-bottom: 2rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    margin: 1rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
